@@ -15,7 +15,18 @@
                     <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('prueba.crear') }}" :active="request()->routeIs('prueba.crear')">
+                        Crear Libros
+                    </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('componente.crear') }}" :active="request()->routeIs('componente.crear')">
+                        Componente ejemplo
+                    </x-jet-nav-link>
+                    
+                    <x-jet-nav-link href="{{ route('music.crear') }}" :active="request()->routeIs('music.crear')">
+                        Music
+                    </x-jet-nav-link>
                 </div>
+                
             </div>
 
             <div class="hidden sm:flex sm:items-center sm:ml-6">
@@ -141,7 +152,10 @@
             <x-jet-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-jet-responsive-nav-link>
+            
         </div>
+
+        
 
         <!-- Responsive Settings Options -->
         <div class="pt-4 pb-1 border-t border-gray-200">
