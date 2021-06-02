@@ -16,3 +16,22 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+
+Route::middleware(['auth:sanctum','verified'])->group(function(){
+	Route::prefix('form')->group(function(){
+		Route::name('form.')->group(function (){
+			
+			Route::get('/ver',function(){
+		        return view('form.ver');
+		    })->name('ver');
+	         
+		});
+	});
+});
+
+
+
