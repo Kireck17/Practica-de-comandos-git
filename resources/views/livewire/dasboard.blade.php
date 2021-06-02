@@ -1,24 +1,113 @@
-<div>
-    <button type="button" class="bg-rose-600 ..." disabled>
-    <svg class="animate-spin h-5 w-5 mr-3 ..." viewBox="0 0 24 24">
-        <!-- ... -->
-    </svg>
-    Processing
-    </button>
-    <span class="flex h-3 w-3">
-        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
-        <span class="relative inline-flex rounded-full h-3 w-3 bg-purple-500"></span>
-    </span>
-    <div class="border border-light-blue-300 shadow rounded-md p-4 max-w-sm w-full mx-auto">
-        <div class="animate-pulse flex space-x-4">
-            <div class="rounded-full bg-light-blue-400 h-12 w-12"></div>
-            <div class="flex-1 space-y-4 py-1">
-            <div class="h-4 bg-light-blue-400 rounded w-3/4"></div>
-            <div class="space-y-2">
-                <div class="h-4 bg-light-blue-400 rounded"></div>
-                <div class="h-4 bg-light-blue-400 rounded w-5/6"></div>
+<div class="p-24 flex flex-wrap items-center justify-center space-y-6 space-x-4">
+    <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center" >
+            <div class="bg-white rounded-lg mt-5">
+              <img
+                src="https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png"
+                class="h-40 rounded-md"
+                alt=""
+              />
             </div>
+            <div class="bg-white shadow-lg rounded-lg -mt-4 w-64">
+              <div class="py-5 px-5">
+                <span class="font-bold text-gray-800 text-lg">Geek Pizza</span>
+                <div class="flex items-center justify-between">
+                  <div class="text-sm text-gray-600 font-light">
+                    Size : Regular
+                  </div>
+                  <div class="text-2xl text-red-600 font-bold">
+                    $ 8.00
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
+    </div>
+    <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center" >
+            <div class="bg-white rounded-lg mt-5">
+              <img
+                src="https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png"
+                class="h-40 rounded-md"
+                alt=""
+              />
+            </div>
+            <div class="bg-white shadow-lg rounded-lg -mt-4 w-64">
+              <div class="py-5 px-5">
+                <span class="font-bold text-gray-800 text-lg">Geek Pizza</span>
+                <div class="flex items-center justify-between">
+                  <div class="text-sm text-gray-600 font-light">
+                    Size : Regular
+                  </div>
+                  <div class="text-2xl text-red-600 font-bold">
+                    $ 8.00
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+    <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center" >
+            <div class="bg-white rounded-lg mt-5">
+              <img
+                src="https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png"
+                class="h-40 rounded-md"
+                alt=""
+              />
+            </div>
+            <div class="bg-white shadow-lg rounded-lg -mt-4 w-64">
+              <div class="py-5 px-5">
+                <span class="font-bold text-gray-800 text-lg">Geek Pizza</span>
+                <div class="flex items-center justify-between">
+                  <div class="text-sm text-gray-600 font-light">
+                    Size : Regular
+                  </div>
+                  <div class="text-2xl text-red-600 font-bold">
+                    $ 8.00
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+    <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center" >
+            <div class="bg-white rounded-lg mt-5">
+              <img
+                src="https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png"
+                class="h-40 rounded-md"
+                alt=""
+              />
+            </div>
+            <div class="bg-white shadow-lg rounded-lg -mt-4 w-64">
+              <div class="py-5 px-5">
+                <span class="font-bold text-gray-800 text-lg">Geek Pizza</span>
+                <div class="flex items-center justify-between">
+                  <div class="text-sm text-gray-600 font-light">
+                    Size : Regular
+                  </div>
+                  <div class="text-2xl text-red-600 font-bold">
+                    $ 8.00
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+    <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center" >
+            <div class="bg-white rounded-lg mt-5">
+              <img
+                src="https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png"
+                class="h-40 rounded-md"
+                alt=""
+              />
+            </div>
+            <div class="bg-white shadow-lg rounded-lg -mt-4 w-64">
+              <div class="py-5 px-5">
+                <span class="font-bold text-gray-800 text-lg">Geek Pizza</span>
+                <div class="flex items-center justify-between">
+                  <div class="text-sm text-gray-600 font-light">
+                    Size : Regular
+                  </div>
+                  <div class="text-2xl text-red-600 font-bold">
+                    $ 8.00
+                  </div>
+                </div>
+              </div>
+            </div>
     </div>
 </div>
+
