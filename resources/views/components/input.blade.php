@@ -1,0 +1,1 @@
+<input {!! $attributes->merge(['class' => 'rounded-tl-lg rounded-br-lg']) !!}>
