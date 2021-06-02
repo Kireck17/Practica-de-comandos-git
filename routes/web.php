@@ -59,3 +59,18 @@ Route::prefix('music')->group(function(){
 
     });
 });
+
+Route::middleware(['auth:sanctum','verified'])->group(function(){
+	Route::prefix('form')->group(function(){
+		Route::name('form.')->group(function (){
+			
+			Route::get('/ver',function(){
+		        return view('form.ver');
+		    })->name('ver');
+	         
+		});
+	});
+});
+
+
+

@@ -27,6 +27,14 @@
                     </x-jet-nav-link>
                 </div>
                 
+                </div>
+
+                 <!-- Navigation Links -->
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('form.ver') }}" :active="request()->routeIs('form.ver')">
+                        {{ __('Formulario') }}
+                    </x-jet-nav-link>
+                </div>
             </div>
 
             <div class="hidden sm:flex sm:items-center sm:ml-6">
@@ -152,11 +160,16 @@
             <x-jet-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-jet-responsive-nav-link>
+<<<<<<< HEAD
             
         </div>
 
         
 
+=======
+        </div>
+
+>>>>>>> 5057f71514676fac81aed2f17c323460b1cb38b3
         <!-- Responsive Settings Options -->
         <div class="pt-4 pb-1 border-t border-gray-200">
             <div class="flex items-center px-4">
